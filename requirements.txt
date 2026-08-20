@@ -1,0 +1,2 @@
+numpy
+anthropic  # optional: LLM SQL generation mode

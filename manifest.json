@@ -1,0 +1,12 @@
+{
+  "name": "querymind",
+  "category": "Agentic",
+  "architecture": "interpreter: lexer\u2192parser\u2192AST\u2192logical/physical plan\u2192executor",
+  "interface": "REPL shell (cmd.Cmd) \u2014 python -m sqa",
+  "testing": "golden plans + grammar parametrize",
+  "demo_cmd": "python -m sqa --demo",
+  "test_cmd": "python -m pytest tests -q",
+  "entry_points": [
+    "sqa/__main__.py"
+  ]
+}
